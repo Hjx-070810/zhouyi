@@ -15,8 +15,11 @@ GitHub 保存不会自动安装。本次仅生成技能源码，没有修改本�
 
 ## 验证
 
+版本2补充婚姻/感情分占、生克链路、显式季节旺衰、三次感情问卦的差异案例。来源与采用范围见 references/research-log.md，MIT摘录附原许可证。没有引入其他项目的秒级起卦、丈尺简法或概率评分。
+
 ```text
 python meihua-yishu/scripts/test_cast.py
+python meihua-yishu/scripts/test_relationship.py
 python meihua-yishu/scripts/cast.py lunar 5 12 17 9
 ```
 
