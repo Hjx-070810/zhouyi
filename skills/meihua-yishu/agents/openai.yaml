@@ -1,0 +1,4 @@
+interface:
+  display_name: "梅花易数"
+  short_description: "按有出处的规则核对本互变卦、体用关系，参考周易原文解读具体问题"
+  default_prompt: "请用 $meihua-yishu 核对我的卦象，并说明解读依据。"
